@@ -10,6 +10,7 @@ body{
     flex:1;
     background:pink;
     height:100vh;
+    justify-content: center;
 }
 
 .right{
@@ -17,4 +18,14 @@ body{
     flex:1;
     background:skyblue;
     height:100vh;
+}
+.profile-img{
+    background-color: slateblue;
+    border: slategrey;
+    border-radius: 80px;
+    height: 70vh;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+    top:-20%;
 }
