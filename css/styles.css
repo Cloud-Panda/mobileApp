@@ -1,3 +1,7 @@
+*{
+    padding:0;
+    margin:0;
+}
 body{
     margin:0;
     padding:0;
@@ -10,7 +14,8 @@ body{
     flex:1;
     background:pink;
     height:100vh;
-    justify-content: center;
+   /* justify-content: center;*/
+    flex-direction: column;
 }
 
 .right{
@@ -18,9 +23,11 @@ body{
     flex:1;
     background:skyblue;
     height:100vh;
+    flex-direction: column;
 }
-.profile-img{
-    background-color: slateblue;
+/*.profile-img{
+    background:palevioletred;
+    background-size: cover;
     border: slategrey;
     border-radius: 80px;
     height: 70vh;
@@ -28,4 +35,25 @@ body{
     overflow: hidden;
     position: relative;
     top:-20%;
+    margin:0;
+    padding:0;
+}*/
+.personal-info{
+    background:yellowgreen;
+    width:70%;
+    height:80vh;
+    margin-right:auto;
+    margin-left:auto;
+}
+ul li{
+    list-style: none;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+
+#icon{
+    width:20px;
+    height:20px;
+    float:left;
+    padding-left:20px;
 }
