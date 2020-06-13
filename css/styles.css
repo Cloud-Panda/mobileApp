@@ -2,11 +2,12 @@
     padding:0;
     margin:0;
 }
-.header{
-    display: flex;
-    flex: 1;
-    height:20vh;
-    background:orange;
+hr{
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    padding:0;
+    margin-bottom:0;
 }
 .wrapper{
     display:flex;
@@ -14,13 +15,254 @@
 .profile{
     display:flex;
     flex:1;
-    background:rgb(153,164,155);
-    height:80vh;
+    background:rgb(224,215,206);
     flex-direction: column;
 }
 .info{
     display:flex;
     flex:2;
-    background:rgb(235, 232, 232);
-    height:80vh;
+    background:rgb(243, 239, 239);
+    flex-direction: column;
+}
+
+#right-heading{
+    margin-top:6px;
+}
+
+.profile-img{
+    width:45%;
+    height:30vh;
+    border-radius: 100%;
+    background:url("../images/1.jpg");
+    background-size: cover;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+}
+.table{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0;
+}
+.table td{
+    padding-bottom:5px;
+    padding-top:10px;
+}
+.here td{
+    border:none;
+}
+
+h4{
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:20px;
+    background:rgb(76, 77, 72);
+    padding:5px;
+    text-align: center;
+    color:rgb(245, 238, 238);
+    margin-bottom:20px;
+}
+#profile-txt{
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:0px;
+}
+
+#portfolio-links{
+    margin-left:40px;
+}
+
+#portfolio-links li{
+    margin-left:20px;
+    list-style: circle;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(37, 37, 37);
+}
+a:hover{
+    text-decoration: none;
+}
+#icon{
+    width:20px;
+    height:20px;
+}
+/********Education Timeline************/
+.timeline{
+    width:100%;
+    height:40vh;
+    background:transparent;
+    display:flex;
+
+}
+.first-circle{
+    width:15px;
+    height:15px;
+    border-radius: 100%;
+    background:rgb(191,174,159);
+    position:relative;
+    left:19.5%;
+    top:13.5%;
+}
+.second-circle{
+    width:15px;
+    height:15px;
+    border-radius: 100%;
+    background:rgb(207, 191, 176);
+    position:relative;
+    left:18%;
+    top:45%;
+}
+.third-circle{
+    width:15px;
+    height:15px;
+    border-radius: 100%;
+    background:rgb(163, 151, 140);
+    position:relative;
+    left:16.3%;
+    top:78%;
+}
+.left{
+    width:13%;
+    height:40vh;
+    background:transparent;
+    margin-right:20px;
+}
+.line{
+    width:3px;
+    height:100%;
+    background:rgb(97, 97, 97);
+}
+.content{
+    width:50%;
+    height:40vh;
+    background:transparent;
+    margin-left:20px;
+}
+#timeline-ul{
+    float:right;
+
+}
+
+#timeline-ul li{
+    padding:30px;
+    padding-right:0;
+}
+
+#timeline-content{
+    float:left;
+}
+#timeline-content li{
+    padding:30px;
+    padding-top:5px;
+    padding-left:0;
+}
+
+
+/*******Strengths************/
+.strengths{
+    border:none;
+    width: 90%;
+    margin-left:10%;
+}
+.strengths td{
+    padding:10px;
+    border:none;  
+}
+
+#bar1{
+    width:50%;
+    height:10px;
+    background: linear-gradient(to right, rgb(203,176,166) 80%, rgb(223, 223, 221) 20%);
+}
+#bar2{
+    width:50%;
+    height:10px;
+    background: linear-gradient(to right, rgb(203,176,166) 70%, rgb(223, 223, 221) 30%);
+}
+#bar3{
+    width:50%;
+    height:10px;
+    background: linear-gradient(to right, rgb(203,176,166) 50%, rgb(223, 223, 221) 50%);
+}
+#bar4{
+    width:50%;
+    height:10px;
+    background: linear-gradient(to right, rgb(203,176,166) 90%, rgb(223, 223, 221) 10%);
+}
+#bar5{
+    width:50%;
+    height:10px;
+    background: linear-gradient(to right, rgb(203,176,166) 95%, rgb(223, 223, 221) 5%);
+}
+#bar6{
+    width:50%;
+    height:10px;
+    background: linear-gradient(to right,rgb(203,176,166) 95%, rgb(223, 223, 221) 5%);
+}
+
+
+/***********Skills*************/
+.skills-wrapper{
+    display:flex;
+    justify-content: center;
+}
+.html{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    background:transparent;
+    margin:20px;
+    text-align: center;
+}
+.css{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    background:transparent;
+    margin:20px;
+    text-align: center;
+}
+.php{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    background:transparent;
+    margin:20px;
+    text-align: center;
+}
+.javascript{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    background:transparent;
+    margin:20px;
+    text-align: center;
+}
+
+#percent{
+    font-size: 20px;
+    padding-top:20px;
+}
+#skill-txt{
+    background:rgb(148,105,94);
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    padding:10px;
+}
+
+/*******Interest***********/
+#interest{
+    display:flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
+
+#icons{
+    width:50px;
+    height:50px;
 }

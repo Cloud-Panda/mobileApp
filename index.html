@@ -8,15 +8,20 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!--My CSS-->
-    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-      <div class="header"></div>
+      <!--My CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Font awsome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--<div class="header"></div>-->
       <div class="wrapper">
       <div class="profile">
-        <h2>Personal</h2>
+        <div class="profile-img"></div>
+        <h4>Personal</h4>
        <table class="table table-txt">
           <tbody>
             <tr>
@@ -39,12 +44,164 @@
               <td>Maritual Status</td>
               <td>Single</td>
             </tr>
+            <tr>
+              <td>Job Title</td>
+              <td>Junior Web devloper</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
           </tbody>
         </table>
-        <h2>Contact</h2>
+        <h4>Contact</h4>
+        <table class="table table-txt">
+          <tbody>
+            <tr>
+              <td>Phone</td>
+              <td>+27 81-775-4538</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>Abbyliguma@mail.com</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>Mitchell's Plain Cape Town</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <h4>Languages</h4>
+        <table class="table here">
+            <tbody>
+              <tr>
+                <td scope="row">English</td>
+                <td><i>Fluently</i></td>
+              </tr>
+              <tr>
+                <td scope="row">Afrikaans</td>
+                <td><i>Fluently</i</td>
+              </tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <h4>Portfolio Links</h4>
+        <ul id="portfolio-links">
+          <li><a href="https://github.com/Cloud-Panda/todoApp">Todo App</a></li>
+          <li><a href="https://github.com/Cloud-Panda/onlineStore">Online Store</a></li>
+          <li><a href="https://github.com/Cloud-Panda/quizProject">Quiz</a></li>
+          <li><a href="https://github.com/leonardusdirkstofbergbotes/Hotel-Booking">Hotel booking site</a></li>
+          <li><a href="https://github.com/Cloud-Panda/recipeProject">Recipe page</a></li>
+        </ul>
+        <hr>
       </div>
 
-      <div class="info"></div>
+      <div class="info">
+        <h4 id="right-heading">Profile</h4>
+        <p id="profile-txt">
+          My passion for web development stems from my love for design and aesthetics. 
+          I am passionate about expressing my design thinking within the web field. 
+          I aim to change the way the world sees, experiences and understands the web 
+          environment, one design at a time. I pride myself on building a positive environment
+           around me and the people I work with. I believe I am a great asset as I am constantly
+            searching for new ways to implement new ideas. I rarely think inside the box and am open 
+            to new ideas. My people skills make me a great asset when 
+          working with clients and co-workers. I instil confidence in others and approach new challenges with an open mind.
+        </p>
+
+           
+        <h4 id="right-heading">Education</h4>
+        
+        <div class="timeline">
+          <div class="first-circle"></div>
+          <div class="second-circle"></div>
+          <div class="third-circle"></div>
+          <div class="left">
+            <ul id="timeline-ul">
+              <li>2020</li>
+              <li>2018</li>
+              <li>2017</li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <div class="content">
+            <ul id="timeline-content">
+              <li><b>Code Space</b><br>Studied a full stack web developmnt course for 18 weeks.From February to June</li>
+              <li><b>Face to Face</b><br>Studied makeup and special effects makeup for 3 weeks</li>
+              <li><b>High School Education</b><br>Graduated high school with bachelors  and have never failed a grade</li>
+            </ul>
+          </div>
+        </div>
+        <br>
+        
+
+        <h4 id="right-heading">Strengths</h4>
+        <table class="strengths">
+            <tbody>
+              <tr>
+                <td scope="row">Dedicated/focused</td>
+                <td>Engergetic </td>
+              </tr>
+              <tr>
+                <td><div id="bar1"></div></td>
+                <td><div id="bar2"></div></td>
+              </tr>
+              <tr>
+                <td scope="row">Open minded</td>
+                <td>Greate team player</td>
+              </tr>
+              <tr>
+                <td scope="row"><div id="bar3"></div></td>
+                <td><div id="bar4"></div></td>
+              </tr>
+              <tr>
+                <td scope="row">Punctual</td>
+                <td>Creative</td>
+              </tr>
+              <tr>
+                <td scope="row"><div id="bar5"></div></td>
+                <td><div id="bar6"></div></td>
+              </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <h4 id="right-heading">Software Skills</h4>
+
+        <div class="skills-wrapper">
+        <div class="html">
+          <h6 id="percent">100%</h6>
+          <p id="skill-txt">Html</p>
+        </div>
+        <div class="css">
+          <h6 id="percent">98%</h6>
+          <p id="skill-txt">Css</p>
+        </div>
+        <div class="php">
+          <h6 id="percent">80%</h6>
+          <p id="skill-txt">PHP</p>
+        </div>
+        <div class="javascript">
+          <h6 id="percent">55%</h6>
+          <p id="skill-txt">Javascript</p>
+        </div>
+        </div>
+
+        <h4 id="right-heading">Intrests</h4>
+        <ul id="interest">
+          <li>Music</li>
+          <li><b>Reading/writing</b></li>
+          <li>Interior Design</li>
+          <li><b>Fashion</b></li>
+          <li>Videography</li>
+          <li><b>Photography</b></li>
+        </ul>
+      </div>
       </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
