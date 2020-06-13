@@ -273,7 +273,7 @@ M E D I A        Q U E R I E S
 *****************************************************************************************************/
 
 @media screen and (max-width:500px){
-    .profile{
+    /*.profile{
         width:50%;
     }
     .info{
@@ -298,6 +298,6 @@ M E D I A        Q U E R I E S
    }
    #profile-txt{
        font-size: 10px;
-   }
+   }*/
   
 }
