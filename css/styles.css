@@ -272,32 +272,3 @@ li{
 M E D I A        Q U E R I E S 
 *****************************************************************************************************/
 
-@media screen and (max-width:500px){
-    /*.profile{
-        width:50%;
-    }
-    .info{
-        width:50%;
-    }
-   .profile-img{
-       width:100px;
-       height:100px;
-   }
-   h4{
-       font-size: 14px;
-       margin-top:10px;
-       margin-left:20px;
-       margin-right:20px;
-
-   }
-   .table td{
-       font-size: 10px;
-       padding-left:10px;
-       padding-right:0;
-
-   }
-   #profile-txt{
-       font-size: 10px;
-   }*/
-  
-}
