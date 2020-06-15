@@ -21,7 +21,8 @@ body{
     width:150px;
     height:150px;
     border-radius: 100%;
-    background:white;
+    background:url("../images/profile.jpg");
+    background-size: cover;
     background-size: cover;
     margin-left:auto;
     margin-right:auto;
@@ -91,33 +92,6 @@ a:hover{
     display:flex;
 
 }
-.first-circle{
-    width:25px;
-    height:15px;
-    border-radius: 100%;
-    background:rgb(191,174,159);
-    position:relative;
-    left:25%;
-    top:7%;
-}
-.second-circle{
-    width:25px;
-    height:15px;
-    border-radius: 100%;
-    background:rgb(207, 191, 176);
-    position:relative;
-    left:22%;
-    top:45%;
-}
-.third-circle{
-    width:25px;
-    height:15px;
-    border-radius: 100%;
-    background:rgb(163, 151, 140);
-    position:relative;
-    left:19%;
-    top:75%
-}
 .left{
     width:13%;
     height:40vh;
@@ -126,7 +100,7 @@ a:hover{
 }
 .line{
     width:3px;
-    height:100%;
+    height:auto;
     background:rgb(97, 97, 97);
 }
 .content{
@@ -137,13 +111,13 @@ a:hover{
 }
 #timeline-ul{
     float:right;
-
 }
 
 #timeline-ul li{
     padding-bottom:70px;
     padding-top:15px;
     padding-right:0;
+    margin-right:0;
 }
 
 #timeline-content{
