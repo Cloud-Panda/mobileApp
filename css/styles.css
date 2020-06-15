@@ -2,36 +2,24 @@
     padding:0;
     margin:0;
 }
-hr{
-    width:80%;
-    margin-right:auto;
-    margin-left:auto;
+body{
+    width:100%;
+    height:100%;
     padding:0;
-    margin-bottom:0;
+    margin:0;
+    font-family: 'PT Serif', serif;
 }
 .wrapper{
     display:flex;
+    flex-direction: column;
 }
 .profile{
-    display:flex;
-    flex:1;
+    width:100%;
     background:rgb(224,215,206);
-    flex-direction: column;
 }
-.info{
-    display:flex;
-    flex:2;
-    background:rgb(243, 239, 239);
-    flex-direction: column;
-}
-
-#right-heading{
-    margin-top:6px;
-}
-
 .profile-img{
-    width:45%;
-    height:30vh;
+    width:150px;
+    height:150px;
     border-radius: 100%;
     background:white;
     background-size: cover;
@@ -39,38 +27,31 @@ hr{
     margin-right:auto;
     margin-top:15px;
 }
-.table{
-  width:80%;
-  margin-left:auto;
-  margin-right:auto;
-  padding:0;
-}
-.table td{
-    padding-bottom:5px;
-    padding-top:10px;
-}
-.here td{
-    border:none;
-}
-
-h4{
-    margin-left:40px;
-    margin-right:40px;
-    margin-top:20px;
+h3{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
     background:rgb(76, 77, 72);
     padding:5px;
     text-align: center;
     color:rgb(245, 238, 238);
-    margin-bottom:20px;
-}
-#profile-txt{
-    margin-left:40px;
-    margin-right:40px;
-    margin-top:0px;
+    margin-bottom:10px;
+    font-family: 'Playfair Display', serif;
 }
 
-#portfolio-links{
-    margin-left:40px;
+.table{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0;
+  }
+  .table td{
+    padding-bottom:5px;
+    padding-top:10px;
+  }
+  #portfolio-links{
+    margin-left:20px;
+    margin-bottom:20px;
 }
 
 #portfolio-links li{
@@ -85,11 +66,24 @@ a{
 a:hover{
     text-decoration: none;
 }
-#icon{
-    width:20px;
-    height:20px;
+#tb-center{
+   padding-left:15%;
 }
-/********Education Timeline************/
+.info{
+    width:100%;
+    background:rgb(243, 239, 239);
+}
+
+#right-heading{
+    margin-top:6px;
+}
+
+#profile-txt{
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:10px;
+    margin-top:0px;
+}
 .timeline{
     width:100%;
     height:40vh;
@@ -98,31 +92,31 @@ a:hover{
 
 }
 .first-circle{
-    width:15px;
+    width:25px;
     height:15px;
     border-radius: 100%;
     background:rgb(191,174,159);
     position:relative;
-    left:19.5%;
-    top:13.5%;
+    left:25%;
+    top:7%;
 }
 .second-circle{
-    width:15px;
+    width:25px;
     height:15px;
     border-radius: 100%;
     background:rgb(207, 191, 176);
     position:relative;
-    left:18%;
+    left:22%;
     top:45%;
 }
 .third-circle{
-    width:15px;
+    width:25px;
     height:15px;
     border-radius: 100%;
     background:rgb(163, 151, 140);
     position:relative;
-    left:16.3%;
-    top:78%;
+    left:19%;
+    top:75%
 }
 .left{
     width:13%;
@@ -136,7 +130,7 @@ a:hover{
     background:rgb(97, 97, 97);
 }
 .content{
-    width:50%;
+    
     height:40vh;
     background:transparent;
     margin-left:20px;
@@ -147,7 +141,8 @@ a:hover{
 }
 
 #timeline-ul li{
-    padding:30px;
+    padding-bottom:70px;
+    padding-top:15px;
     padding-right:0;
 }
 
@@ -155,23 +150,22 @@ a:hover{
     float:left;
 }
 #timeline-content li{
-    padding:30px;
+    padding-bottom:20px;
     padding-top:5px;
     padding-left:0;
 }
-
-
-/*******Strengths************/
+li{
+    list-style: none;
+}
 .strengths{
     border:none;
     width: 90%;
     margin-left:10%;
 }
 .strengths td{
-    padding:10px;
+    padding:5px;
     border:none;  
 }
-
 #bar1{
     width:50%;
     height:10px;
@@ -202,73 +196,69 @@ a:hover{
     height:10px;
     background: linear-gradient(to right,rgb(203,176,166) 95%, rgb(223, 223, 221) 5%);
 }
-
-
-/***********Skills*************/
 .skills-wrapper{
     display:flex;
     justify-content: center;
+    margin-top:25px;
+    margin-bottom:35px;
 }
 .html{
-    width:100px;
-    height:100px;
+    width:60px;
+    height:50px;
     border-radius: 100%;
     background:transparent;
-    margin:20px;
+    margin-right:3%;
     text-align: center;
 }
 .css{
-    width:100px;
-    height:100px;
+    width:60px;
+    height:50px;
     border-radius: 100%;
     background:transparent;
-    margin:20px;
+    margin-right:3%;
     text-align: center;
 }
 .php{
-    width:100px;
-    height:100px;
+    width:60px;
+    height:50px;
     border-radius: 100%;
     background:transparent;
-    margin:20px;
+    margin-right:3%;
     text-align: center;
 }
 .javascript{
-    width:100px;
-    height:100px;
+    width:60px;
+    height:50px;
     border-radius: 100%;
     background:transparent;
-    margin:20px;
+    margin-right:3%;
     text-align: center;
 }
 
 #percent{
-    font-size: 20px;
-    padding-top:20px;
+    font-size: 15px;
+    padding-top:5px;
 }
 #skill-txt{
     background:rgb(148,105,94);
     border-bottom-right-radius: 45px;
     border-bottom-left-radius: 45px;
-    padding:10px;
+    padding:5px;
 }
-
-/*******Interest***********/
 #interest{
-    display:flex;
-    justify-content: space-evenly;
+   margin-left:10%;
+   margin-right:20%;
+   float:left;
 }
-li{
-    list-style: none;
+#interest li{
+    margin-bottom:10px;
 }
-
+#intrest-r li{
+    margin-bottom:10px;
+}
 #icons{
-    width:50px;
-    height:50px;
+    width:25px;
+    height:25px;
 }
 
-/****************************************************************************************************
-*****************************************************************************************************
-M E D I A        Q U E R I E S 
-*****************************************************************************************************/
 

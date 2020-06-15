@@ -1,0 +1,131 @@
+:root{
+    --primary:#e0d7ce;
+    --white: #f3efef;
+    --grey: #4c4d48;
+}
+
+html{
+    padding:0;
+    margin: 0;
+    width: 100vw !important;
+    height:100vh !important;
+    display:flex;
+}
+
+body{
+    padding:0;
+    margin: 0;
+    width: 100vw !important;
+    height:100vh !important;
+    display:flex;
+}
+.wrapper{
+    flex:1;
+    display:flex;
+    height:100vh;
+    background-color: var(--primary);
+}
+
+.profile{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+ 
+.info{
+    flex:3;
+    display:flex;
+    flex-direction: column;
+    background-color: var(--white);
+
+    height:100vh;
+}
+
+  .profile-img{
+    flex-grow: 1;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    border-radius: 50%;
+    background-color:  var(--white);
+ }
+
+ .block{
+     flex:1;
+     display: flex;
+     flex-direction: column;
+     background-color: --primary;
+ }
+
+ .block h4{
+     background-color: var(--grey);
+     color: var(--white);
+ }
+
+ .block ul #portfolio-links{
+     text-decoration: none;
+     list-style: none;;
+ }
+
+ .skills-wrapper{
+    display:flex;
+    justify-content: center;
+}
+.html{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    background:transparent;
+    margin:20px;
+    text-align: center;
+}
+.css{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    background:transparent;
+    margin:20px;
+    text-align: center;
+}
+.php{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    background:transparent;
+    margin:20px;
+    text-align: center;
+}
+.javascript{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    background:transparent;
+    margin:20px;
+    text-align: center;
+}
+
+#percent{
+    font-size: 20px;
+    padding-top:20px;
+}
+#skill-txt{
+    background:rgb(148,105,94);
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    padding:10px;
+}
+
+/*******Interest***********/
+#interest{
+    display:flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
+
+#icons{
+    width:50px;
+    height:50px;
+}
